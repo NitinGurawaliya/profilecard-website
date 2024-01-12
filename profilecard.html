@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My profile</title>
+        <link rel="stylesheet" href="styles.css">   
+     
+    </head>
+    <body>
+        <div class="profile-box">
+            <div class="image">
+                <img class="profile-img" src="logos/cardpic.jpg">
+            </div>
+            <div class="text-data">
+                <p class="job">Nitin</p>
+                <p class="name">Full Stack Web Doveloper</p>  
+            </div>
+            <div class="handles">
+         
+                    <div>
+                        <img class="fb-logo"  src="logos/facebook.png">
+                    </div>
+                           
+                <div onclick="openInNewTab
+                ('https://twitter.com/nitinku22981012')">
+                    <img class="x-logo" src="logos/twitter.png">
+                </div>
+                <div onclick="openInNewTab
+                ('https://www.instagram.com/nitin.i_/')">
+                    <img class="insta-logo" src="logos/insta.png">
+                </div>
+                <div>
+                    <img class="yt-logo" src="logos/yt.png" href="www.youtube.com">
+                </div>
+            </div>
+
+            <div class="buttons">
+                <div class="subs-div">      
+                     <button class="Subscribe-button" 
+                     onclick="openInNewTab
+                     ('https://www.youtube.com/channel/UC3OMh8IHjJEOmJwaUhJZHKQ')">
+                     Subscribe</button>
+                </div>
+
+                <div class="message-div">
+                    <button class="message-button"
+                    onclick="openInNewTab
+                    ('https://www.instagram.com/nitin.i_/')">
+                    Message</button>
+                </div>
+                
+            </div>
+        </div>
+        <script>
+            function openInNewTab(url) {
+              // Open the link in a new tab
+              window.open(url, '_blank');
+            }
+          </script>
+
+    </body>
+</html>

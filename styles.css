@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.image{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    padding: 3px;
+  
+}
+.profile-img{
+    border-radius: 100px;
+    height: 100%;
+    width: 100%;
+    border-color:rgb(102, 102, 254);
+    border-width: 1.5px;
+    border-style: solid;
+    object-fit: cover;
+}
+body{
+    height: 90vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:rgb(118, 121, 121);
+
+}
+.profile-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+
+    background-color: rgba(245, 245, 245, 0.825);
+    max-width: 400px;
+    width: 100%;
+    border-radius: 10px;
+}
+.text-data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-style: bold;
+    margin: 11px;
+    font-size: large;
+
+}
+.job{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 4px;
+}
+.name{
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    color: gray;
+
+}
+.handles{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.fb-logo, .insta-logo, .x-logo, .yt-logo{
+    border-radius: 100px;
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+}
+.buttons{
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+    .Subscribe-button{
+        color: white;
+        background-color: rgb(102, 102, 254);
+        border: none;
+        height: 35px;
+        width: 120px;
+        border-radius: 100px;
+        cursor: pointer;
+    }
+    .Subscribe-button:hover{
+        opacity: 0.88;
+    }
+    .Subscribe-button:active{
+        opacity: 0.7;
+    }
+
+    .message-button{
+        color: white;
+        background-color: rgb(102, 102, 254);
+        border: none;
+        height: 35px;
+        width: 120px;
+        border-radius: 100px;
+        cursor: pointer;
+    }
+    .message-button:hover{
+        opacity: 0.88;
+    }
+    .message-button:active{
+        opacity: 0.7;
+    }
+
+
+
